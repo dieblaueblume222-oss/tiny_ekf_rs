@@ -1,0 +1,10 @@
+[package]
+name = "tiny_ekf_rs"
+version = "0.1.0"
+edition = "2021"
+description = "A safe, nalgebra-powered Extended Kalman Filter — Rust translation of Simon D. Levy's TinyEKF"
+license = "MIT"
+
+[dependencies]
+nalgebra = "0.33"
+anyhow = "1.0"
